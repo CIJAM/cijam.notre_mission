@@ -11,7 +11,7 @@ body {
 }
 
 .container {
-    width: 80%;
+    width: 90%; /* Adjusted width */
     margin: auto;
     padding: 3% 0;
     display: flex;
@@ -36,7 +36,7 @@ body {
 }
 
 .image {
-    height: 150px;
+    height: 100px; /* Adjusted height */
     margin: 5px;
 }
 
@@ -46,19 +46,19 @@ body {
 }
 
 .logotext {
-    font-size: 40px;
+    font-size: 30px; /* Adjusted font size */
     color: #008000;
-    margin: 40px;
+    margin: 20px; /* Adjusted margin */
     margin-left: 5px;
     border-right: #FFA500 solid 3px;
-    padding-right: 100px;
+    padding-right: 50px; /* Adjusted padding */
 }
 
 .brand {
-    font-size: 25px;
+    font-size: 20px; /* Adjusted font size */
     color: #008000;
-    margin-right: 90px;
-    padding-left: 100px;
+    margin-right: 70px; /* Adjusted margin */
+    padding-left: 50px; /* Adjusted padding */
 }
 
 /* Navigation menu styles */
@@ -68,11 +68,11 @@ body {
 }
 
 .menu li {
-    margin-left: 30px;
+    margin-left: 10px; /* Adjusted margin */
 }
 
 .menu ul {
-    margin-left: 50px;
+    margin-left: 10px; /* Adjusted margin */
 }
 
 .menu a {
@@ -95,172 +95,47 @@ h1 {
     font-size: 2.2em;
 }
 
+/* Responsive styles for screens <= 720px */
+@media only screen and (max-width: 720px) {
+    .container {
+        width: 100%; /* Adjusted width */
+    }
 
+    .image {
+        height: 50px; /* Smaller height */
+        margin-top: 10px;
+    }
 
+    .logotext {
+        font-size: 20px; /* Bigger font size */
+        margin: 5px;
+        padding-right: 10px; /* Smaller padding */
+        margin-top: 10px; /* Reset margin */
+    }
 
+    .brand {
+        font-size: 10px; /* Smaller font size */
+        margin-top: 10px; /* Space out from the logo */
+        padding-left: 10px; /* Add padding to separate from image */
+    }
 
+    .menu a {
+        padding: 4px 8px; /* Smaller padding */
+        font-size: 12px; /* Bigger font size */
+    }
 
+    .tumelo,
+    .colombe {
+        max-width: 40px; /* Adjusted max width */
+    }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-h1 {
-    color: orange;
-    text-align: center;
-    font-family: Termina;
-    font-size: 2.2em;
-}
-
-.bigblock {
-    display: flex;
-    justify-content: center; /* Center align items horizontally */
-    align-items: center; /* Center align items vertically */
-}
-
-.member,
-.team-member {
-    display: flex;
-    align-items: center;
-    margin-bottom: 40px;
-}
-
-.column {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    position: relative;
-    justify-content: right;
-    text-align: right;
-}
-
-.columnop {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    position: relative;
-}
-
-.column::before {
-    content: '';
-    position: absolute;
-    background-color: #FFA500; /* Border color */
-}
-
-.columnop::before {
-    content: '';
-    position: absolute;
-    background-color: #FFA500; /* Border color */
-}
-
-
-.image-container,
-.image-containerop {
-    flex-shrink: 1;
-}
-
-.image-containerop {
-    margin-right: 200px; /* Adjust as needed */
-}
-
-.image-container {
-    margin-left: 200px; /* Adjust as needed */
-}
-
-.image-container img,
-.image-containerop img {
-    max-width: 200px;
-    height: auto;
-    border-radius: 55%;
-}
-
-.info {
-    font-size: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    padding: 10px 10px; /* Add padding for spacing */
-}
-
-.infoop {
-    font-size: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-}
-
-.name,
-.nameop {
-    color: green;
-    margin-bottom: 5px;
-}
-
-.position,
-.positionop {
-    color: orange;
-}
-
-
-/* Ensure both .member and .team-member are on the same line */
-@media (min-width: 768px) {
-    .bigblock {
-        flex-direction: row;
-        justify-content: space-between;
+    .text-column {
+        width: 90%; /* Set width of text column */
+        margin: 0 auto; /* Center the text column */
+        padding: 0 10px; /* Add padding to text column */
     }
 }
 
-.image-containerop {
-    margin-left: 20px; /* Adjust as needed */
-}
-
-.image-containerop img {
-    max-width: 46%;
-    height: auto;
-    border-radius: 50%; /* Make the image circular */
-}
-
-.infoop {
-    text-align: center; /* Align text to the right */
-    padding-left: 0; /* Remove padding */
-    padding-right: 20px; /* Add padding to separate from image */
-    border-left: none; /* Remove the border */
-}
-
-.image-container img,
-.image-containerop img {
-    height: auto;
-    border-radius: 55%; /* Make the image circular */
-    transition: transform 0.3s ease; /* Add transition for smooth scaling */
-}
-
-.image-container img:hover,
-.image-containerop img:hover {
-    transform: scale(1.4); /* Scale the image up by 10% on hover */
-}
-
-.image-container img {
-    max-width: 150px;
-}
-
-.image-containerop img {
-    max-width: 150px;
-}
 
 
 
