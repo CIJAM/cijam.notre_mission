@@ -126,96 +126,7 @@ h1 {
 
     .tumelo,
     .colombe {
-        max-width: 40px; /* Adjusted max width */
-    }
-
-    .text-column {
-        width: 90%; /* Set width of text column */
-        margin: 0 auto; /* Center the text column */
-        padding: 0 10px; /* Add padding to text column */
-    }
-}
-
-
-
-
-
-
-
-
-
-
-
-@media only screen and (max-width: 720px) {
-    .container {
-        padding: 0;
-    }
-    
-    #navbar {
-        padding: 0.5% 0;
-        background-image: linear-gradient(to bottom, rgba(255,255,255,0), rgba(255,255,255,1)), url(homespace_phone.jpg);
-        background-size: cover; /* Ensure the background image fits within the navbar */
-        background-repeat: no-repeat; /* Prevent background image from repeating */
-    }
-
-    .header,
-    .logo {
-        display: flex;
-        align-items: center;
-    }
-
-    .image {
-        height: 50px; /* Smaller height */
-        margin: 0;
-        margin-top: 10px;
-    }
-
-    .logotext {
-        font-size: 20px; /* Bigger font size */
-        color: #008000;
-        margin: 10px;
-        border-right: #FFA500 solid 1px;
-        padding-right: 20px; /* Smaller padding */
-        margin-top: 10px; /* Reset margin */
-    }
-
-    .logotext, 
-    .brand {
-        font-family: Times New Roman, serif;
-    }
-
-    .brand {
-        font-size: 10px; /* Smaller font size */
-        color: #0B6623;
-        margin-top: 10px; /* Space out from the logo */
-        padding-left: 20px; /* Add padding to separate from image */
-    }
-
-    .menu {
-        display: flex;
-        justify-content: space-between; /* Align items to left and right */
-        flex-wrap: wrap; /* Allow items to wrap to the next line */
-        flex-direction: column;
-    }
-
-    .menu ul {
-        margin: 0; /* Reset margin */
-    }
-
-    .menu a {
-        padding: 0px 0px; /* Smaller padding */
-        font-size: 8px; /* Bigger font size */
-        font-weight: bold;
-        text-align: center;
-    }
-
-    .menu a:hover {
-        color: #FFFFFF; /* Change text color to white on hover */
-    }
-
-    .tumelo,
-    .colombe {
-        max-width: 50px;
+        max-width: 30px;
         height: auto;
     }
 
@@ -224,6 +135,28 @@ h1 {
         margin: 0 auto; /* Center the text column */
         padding: 0 10px; /* Add padding to text column */
     }
+
+    .section-title {
+    color: orange; /* Orange color */
+    font-size: 20px; /* Increase font size by 100% */
+    font-family: Termina;
+    margin-bottom: 20px; /* Add more spacing between title and text */
+}
+
+/* Style for the section text */
+.section p {
+    font-size: 15px;
+    color: #008000;
+    text-align: center;
+    font-weight	: bold;
+}
+
+    .mission-item p {
+    color: #666; /* Dark green color */
+    font-size: 10px; /* Increase font size by 100% */
+    margin: 30px;
+}
+
 }
 
 
