@@ -24,7 +24,7 @@ body {
     color: #FFFFFF;
     padding: 0.5% 0;
     background-image: linear-gradient(to bottom, rgba(255,255,255,0), rgba(255,255,255,1)), url(homespace_home.png);
-    background-size: contain;
+    background-size: cover;
     position: relative;
     transition: background-image 1s ease;
 }
@@ -56,7 +56,7 @@ body {
 
 .brand {
     font-size: 25px;
-    color: #0B6623;
+    color: #008000;
     margin-right: 90px;
     padding-left: 100px;
 }
@@ -106,119 +106,162 @@ h1 {
 
 
 
-/* Style for the section title */
-.section-title {
-    color: orange; /* Orange color */
-    font-size: 3em; /* Increase font size by 100% */
-    font-family: Termina;
-    margin-bottom: 20px; /* Add more spacing between title and text */
-}
 
-/* Style for the section text */
-.section p {
-    font-size: 1.8em;
-    color: #008000;
+
+
+
+
+
+
+
+
+
+
+
+
+h1 {
+    color: orange;
     text-align: center;
-    font-weight	: bold;
+    font-family: Termina;
+    font-size: 2.2em;
 }
 
-/* Style for mission item paragraphs */
-.mission-item p {
-    color: #666; /* Dark green color */
-    font-size: 1.2em; /* Increase font size by 100% */
-    margin: 30px;
-}
-
-/* Style for mission items */
-.mission-item {
-    margin-bottom: 40px; /* Increase margin between mission items */
+.bigblock {
     display: flex;
-    flex-direction: row;
+    justify-content: center; /* Center align items horizontally */
+    align-items: center; /* Center align items vertically */
+}
+
+.member,
+.team-member {
+    display: flex;
     align-items: center;
-    justify-content: center; /* Center the content horizontally */
-    color: #394C27; /* Dark green color */
+    margin-bottom: 40px;
 }
 
-/* Style for mission item images */
-.mission-item .image {
-    max-width: 100%; /* Ensure images take full width of container */
-    height: auto;
-    border-radius: 50px;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Add box shadow */
-    margin-right: 40px; /* Add spacing between images and text */
-    transition: transform 0.3s ease; /* Add transition effect for smooth scaling */
-}
-
-/* Scale images up when hovered */
-.mission-item .image:hover {
-    transform: scale(1.1); /* Increase scale by 10% */
-}
-
-
-/* Align alternate paragraphs to the right */
-.mission-item:nth-child(even) .image {
-    order: 2; /* Reorder image to the right */
-}
-
-.mission-item:nth-child(even) .text {
-    order: 1; /* Reorder text to the left */
-}
-
-
-
-
-
-
-
-
-
-
-/* CSS for the section */
-.section {
+.column {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between; /* Space items evenly along the row */
-    align-items: flex-start; /* Align items to the top */
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    justify-content: right;
+    text-align: right;
 }
 
-/* Style for image columns */
-.image-column {
-    flex: 1; /* Each image column takes up equal space */
-    position: relative; /* Needed for hover effect */
-    display: flex; /* Use flexbox to align image vertically */
-    align-items: center; /* Center image vertically */
-    margin: 0px 20px;
+.columnop {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
 }
 
-.image-column img {
-    max-width: 300px; /* Ensure images fill their container */
+.column::before {
+    content: '';
+    position: absolute;
+    background-color: #FFA500; /* Border color */
+}
+
+.columnop::before {
+    content: '';
+    position: absolute;
+    background-color: #FFA500; /* Border color */
+}
+
+
+.image-container,
+.image-containerop {
+    flex-shrink: 1;
+}
+
+.image-containerop {
+    margin-right: 200px; /* Adjust as needed */
+}
+
+.image-container {
+    margin-left: 200px; /* Adjust as needed */
+}
+
+.image-container img,
+.image-containerop img {
+    max-width: 200px;
     height: auto;
-    border-radius: 10px; /* Add border-radius for rounded corners */
-    transition: transform 0.3s ease; /* Add smooth transition for hover effect */
+    border-radius: 55%;
 }
 
-/* Style for text column */
-.text-column {
-    flex: 1; /* Text column takes up equal space */
-    padding: 0 20px; /* Add padding to text column */
+.info {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 10px 10px; /* Add padding for spacing */
 }
 
-/* Style for the text */
-.text {
-    color: #008000; /* Dark green color */
+.infoop {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
 }
 
-/* Style for section title */
-.section-title {
-    color: #FFA500; /* Orange color */
-    margin-bottom: 10px; /* Add spacing between title and text */
-    font-size: 24px; /* Increase font size */
+.name,
+.nameop {
+    color: green;
+    margin-bottom: 5px;
 }
 
-/* Hover effect for images */
-.image-column img:hover {
-    transform: scale(1.1); /* Increase scale on hover */
+.position,
+.positionop {
+    color: orange;
 }
+
+
+/* Ensure both .member and .team-member are on the same line */
+@media (min-width: 768px) {
+    .bigblock {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+.image-containerop {
+    margin-left: 20px; /* Adjust as needed */
+}
+
+.image-containerop img {
+    max-width: 46%;
+    height: auto;
+    border-radius: 50%; /* Make the image circular */
+}
+
+.infoop {
+    text-align: center; /* Align text to the right */
+    padding-left: 0; /* Remove padding */
+    padding-right: 20px; /* Add padding to separate from image */
+    border-left: none; /* Remove the border */
+}
+
+.image-container img,
+.image-containerop img {
+    height: auto;
+    border-radius: 55%; /* Make the image circular */
+    transition: transform 0.3s ease; /* Add transition for smooth scaling */
+}
+
+.image-container img:hover,
+.image-containerop img:hover {
+    transform: scale(1.4); /* Scale the image up by 10% on hover */
+}
+
+.image-container img {
+    max-width: 150px;
+}
+
+.image-containerop img {
+    max-width: 150px;
+}
+
 
 
 
