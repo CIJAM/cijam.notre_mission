@@ -166,18 +166,17 @@ h1 {
 
     .image {
         height: 50px; /* Smaller height */
-        margin: 0px;
+        margin: 0;
         margin-top: 10px;
     }
 
     .logotext {
         font-size: 20px; /* Bigger font size */
         color: #008000;
-        margin: 5px;
+        margin: 10px;
         border-right: #FFA500 solid 1px;
-        padding-right: 10px; /* Smaller padding */
+        padding-right: 20px; /* Smaller padding */
         margin-top: 10px; /* Reset margin */
-        padding-right: 0px; /* Reset padding */
     }
 
     .logotext, 
@@ -189,7 +188,7 @@ h1 {
         font-size: 10px; /* Smaller font size */
         color: #0B6623;
         margin-top: 10px; /* Space out from the logo */
-        padding-left: 10px; /* Add padding to separate from image */
+        padding-left: 20px; /* Add padding to separate from image */
     }
 
     .menu {
