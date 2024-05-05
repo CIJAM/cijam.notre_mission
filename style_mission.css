@@ -296,6 +296,21 @@ h1 {
         color: #FFFFFF; /* Change text color to white on hover */
     }
 
+    .tumelo {
+        margin-left: 10px;
+        max-width: 50px;
+        height: auto;
+    }
+
+    .colombe {
+        margin-right: 10px;
+        max-width: 50px;
+        height: auto;
+    }
+
+    .text-column {
+        padding: 0 10px; /* Add padding to text column */
+    }
     
 }
 
