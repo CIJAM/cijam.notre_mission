@@ -231,6 +231,120 @@ h1 {
 
 
 
+/* Style for the section title */
+.section-title {
+    color: orange; /* Orange color */
+    font-size: 3em; /* Increase font size by 100% */
+    font-family: Termina;
+    margin-bottom: 20px; /* Add more spacing between title and text */
+}
+
+/* Style for the section text */
+.section p {
+    font-size: 1.8em;
+    color: #008000;
+    text-align: center;
+    font-weight	: bold;
+}
+
+/* Style for mission item paragraphs */
+.mission-item p {
+    color: #666; /* Dark green color */
+    font-size: 1.2em; /* Increase font size by 100% */
+    margin: 30px;
+}
+
+/* Style for mission items */
+.mission-item {
+    margin-bottom: 40px; /* Increase margin between mission items */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; /* Center the content horizontally */
+    color: #394C27; /* Dark green color */
+}
+
+/* Style for mission item images */
+.mission-item .image {
+    max-width: 100%; /* Ensure images take full width of container */
+    height: auto;
+    border-radius: 50px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Add box shadow */
+    margin-right: 40px; /* Add spacing between images and text */
+    transition: transform 0.3s ease; /* Add transition effect for smooth scaling */
+}
+
+/* Scale images up when hovered */
+.mission-item .image:hover {
+    transform: scale(1.1); /* Increase scale by 10% */
+}
+
+
+/* Align alternate paragraphs to the right */
+.mission-item:nth-child(even) .image {
+    order: 2; /* Reorder image to the right */
+}
+
+.mission-item:nth-child(even) .text {
+    order: 1; /* Reorder text to the left */
+}
+
+
+
+
+
+
+
+
+
+
+/* CSS for the section */
+.section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; /* Space items evenly along the row */
+    align-items: flex-start; /* Align items to the top */
+}
+
+/* Style for image columns */
+.image-column {
+    flex: 1; /* Each image column takes up equal space */
+    position: relative; /* Needed for hover effect */
+    display: flex; /* Use flexbox to align image vertically */
+    align-items: center; /* Center image vertically */
+    margin: 0px 20px;
+}
+
+.image-column img {
+    max-width: 300px; /* Ensure images fill their container */
+    height: auto;
+    border-radius: 10px; /* Add border-radius for rounded corners */
+    transition: transform 0.3s ease; /* Add smooth transition for hover effect */
+}
+
+/* Style for text column */
+.text-column {
+    flex: 1; /* Text column takes up equal space */
+    padding: 0 20px; /* Add padding to text column */
+}
+
+/* Style for the text */
+.text {
+    color: #008000; /* Dark green color */
+}
+
+/* Style for section title */
+.section-title {
+    color: #FFA500; /* Orange color */
+    margin-bottom: 10px; /* Add spacing between title and text */
+    font-size: 24px; /* Increase font size */
+}
+
+/* Hover effect for images */
+.image-column img:hover {
+    transform: scale(1.1); /* Increase scale on hover */
+}
+
 
 
 
