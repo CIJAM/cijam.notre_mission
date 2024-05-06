@@ -112,7 +112,6 @@ h1 {
 /* Style for the section text */
 .man p {
     font-size: 1.5em;
-    color: #008000;
     text-align: center;
     font-weight: bold;
 }
@@ -177,14 +176,6 @@ h1 {
     justify-content: space-between; /* Space items evenly along the row */
 }
 
-.text p {
-    color: #666; /* Dark green color */
-    font-size: 25px; /* Increase font size by 100% */
-    margin: 30px 20px; /* Adjust margin */
-    padding: 0; /* Reset padding */
-    font-weight: bold;
-}
-
 .image-column {
     width: 26%; /* Set width of image column */
     position: relative; /* Needed for hover effect */
@@ -201,6 +192,13 @@ h1 {
 
 .bro {
     width: 26%
+} 
+
+.bro p {
+    font-size: 25px; /* Increase font size by 100% */
+    margin: 30px 20px; /* Adjust margin */
+    padding: 0; /* Reset padding */
+    font-weight: bold;   
 }
 
 .image-column img {
@@ -226,6 +224,7 @@ h1 {
 .imagecolumn img:hover {
     transform: scale(1.2); /* Increase scale on hover */
 }
+
 
 
 
@@ -324,7 +323,7 @@ h1 {
         margin-bottom: 15px; /* Add more spacing between title and text */
     }
 
-    .text p {
+    .bro p {
         color: #666; /* Dark green color */
         font-size: 8px; /* Increase font size by 100% */
         margin: 10px 0; /* Adjust margin */
