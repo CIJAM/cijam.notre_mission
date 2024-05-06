@@ -95,71 +95,6 @@ h1 {
     font-size: 2.2em;
 }
 
-/* Responsive styles for screens <= 720px */
-@media only screen and (max-width: 720px) {
-    .container {
-        width: 100%; /* Adjusted width */
-    }
-
-    .image {
-        height: 50px; /* Smaller height */
-        margin-top: 10px;
-    }
-
-    .logotext {
-        font-size: 20px; /* Bigger font size */
-        margin: 5px;
-        padding-right: 10px; /* Smaller padding */
-        margin-top: 10px; /* Reset margin */
-    }
-
-    .brand {
-        font-size: 10px; /* Smaller font size */
-        margin-top: 10px; /* Space out from the logo */
-        padding-left: 10px; /* Add padding to separate from image */
-    }
-
-    .menu a {
-        padding: 4px 8px; /* Smaller padding */
-        font-size: 12px; /* Bigger font size */
-    }
-
-    .tumelo,
-    .colombe {
-        max-width: 30px;
-        height: auto;
-    }
-
-    .text-column {
-        width: 350px; /* Set width of text column */
-        margin: 0 auto; /* Center the text column */
-        padding: 0 10px; /* Add padding to text column */
-    }
-
-    .section-title {
-    color: orange; /* Orange color */
-    font-size: 20px; /* Increase font size by 100% */
-    font-family: Termina;
-    margin-bottom: 20px; /* Add more spacing between title and text */
-}
-
-/* Style for the section text */
-.section p {
-    font-size: 15px;
-    color: #008000;
-    text-align: center;
-    font-weight	: bold;
-}
-
-    .mission-item p {
-    color: #666; /* Dark green color */
-    font-size: 10px; /* Increase font size by 100% */
-    margin: 30px;
-}
-
-}
-
-
 
 
 
@@ -277,6 +212,87 @@ h1 {
 .image-column img:hover {
     transform: scale(1.1); /* Increase scale on hover */
 }
+
+
+
+
+
+
+
+
+
+
+/* Responsive styles for screens <= 720px */
+@media only screen and (max-width: 720px) {
+    .container {
+        width: 100%; /* Adjusted width */
+    }
+
+    .image {
+        height: 50px; /* Smaller height */
+        margin-top: 10px;
+    }
+
+    .logotext {
+        font-size: 20px; /* Bigger font size */
+        margin: 5px;
+        padding-right: 10px; /* Smaller padding */
+        margin-top: 10px; /* Reset margin */
+    }
+
+    .brand {
+        font-size: 10px; /* Smaller font size */
+        margin-top: 10px; /* Space out from the logo */
+        padding-left: 10px; /* Add padding to separate from image */
+    }
+
+    .menu a {
+        padding: 4px 8px; /* Smaller padding */
+        font-size: 12px; /* Bigger font size */
+    }
+
+    .tumelo,
+    .colombe {
+        max-width: 30px;
+        height: auto;
+    }
+
+    .text-column {
+        width: 350px; /* Set width of text column */
+        margin: 0 auto; /* Center the text column */
+        padding: 0 10px; /* Add padding to text column */
+    }
+
+    .section-title {
+    color: orange; /* Orange color */
+    font-size: 15px; /* Increase font size by 100% */
+    font-family: Termina;
+    margin-bottom: 15px; /* Add more spacing between title and text */
+    }
+
+/* Style for the section text */
+    .section p {
+    font-size: 10px;
+    color: #008000;
+    text-align: center;
+    font-weight	: bold;
+    }
+
+    .mission-item p {
+    color: #666; /* Dark green color */
+    font-size: 10px; /* Increase font size by 100% */
+    margin: 30px;
+    }
+
+}
+
+
+
+
+
+
+
+
 
 
 
