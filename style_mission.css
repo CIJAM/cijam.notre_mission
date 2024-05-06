@@ -284,13 +284,7 @@ h1 {
     .menu a:hover {
         color: #FFFFFF; /* Change text color to white on hover */
     }
-
-    .tumelo,
-    .colombe {
-        max-width: 50px;
-        height: auto;
-    }
-
+    
     .section-title {
         color: orange; /* Orange color */
         font-size: 15px; /* Increase font size by 100% */
@@ -307,22 +301,14 @@ h1 {
 
     .image-column img {
         max-width: 40px; /* Ensure images fill their container */
-        height: auto;
         border-radius: 10px; /* Add border-radius for rounded corners */
         transition: transform 0.3s ease; /* Add smooth transition for hover effect */
     }
 
     .image-column img {
         max-width: 40px; /* Ensure images fill their container */
-        height: auto;
         border-radius: 10px; /* Add border-radius for rounded corners */
         transition: transform 0.3s ease; /* Add smooth transition for hover effect */
-    }
-
-    .man {
-        max-width: 80%;
-        margin: 30px;
-        align-items: center;
     }
 
     .man p {
