@@ -258,7 +258,7 @@ h1 {
     }
 
     .text-column {
-        width: 350px; /* Set width of text column */
+        width: 200px; /* Set width of text column */
         margin: 0 auto; /* Center the text column */
         padding: 0 10px; /* Add padding to text column */
     }
@@ -284,6 +284,20 @@ h1 {
     margin: 30px;
     }
 
+    .image-column {
+    flex: 1; /* Each image column takes up equal space */
+    position: relative; /* Needed for hover effect */
+    display: flex; /* Use flexbox to align image vertically */
+    align-items: center; /* Center image vertically */
+    margin: 0px 5px;
+    }
+
+    .image-column img {
+    max-width: 40px; /* Ensure images fill their container */
+    height: auto;
+    border-radius: 10px; /* Add border-radius for rounded corners */
+    transition: transform 0.3s ease; /* Add smooth transition for hover effect */
+    }
 }
 
 
