@@ -118,6 +118,7 @@ h1 {
 }
 
 /* Style for mission item paragraphs */
+.bro p, 
 .mission-item p {
     color: #666; /* Dark green color */
     font-size: 1.2em; /* Increase font size by 100% */
