@@ -178,6 +178,7 @@ h1 {
 }
 
 .image-column, .imagecolumn {
+    width: 50%; /* Set width of image columns */
     position: relative; /* Needed for hover effect */
     display: flex; /* Use flexbox to align image vertically */
     align-items: center; /* Center image vertically */
@@ -192,6 +193,7 @@ h1 {
 }
 
 .image-column img, .imagecolumn img {
+    width: 100%; /* Ensure images fill their container */
     height: auto;
     border-radius: 10px; /* Add border-radius for rounded corners */
     transition: transform 0.3s ease; /* Add smooth transition for hover effect */
@@ -201,6 +203,8 @@ h1 {
 .image-column img:hover, .imagecolumn img:hover {
     transform: scale(1.2); /* Increase scale on hover */
 }
+
+
 
 
 
