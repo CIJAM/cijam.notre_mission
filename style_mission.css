@@ -313,78 +313,80 @@ h1 {
     }
 
     .section-title {
-    color: orange; /* Orange color */
-    font-size: 15px; /* Increase font size by 100% */
-    font-family: Times New Roman, serif;
-    margin-bottom: 15px; /* Add more spacing between title and text */
+        color: orange; /* Orange color */
+        font-size: 15px; /* Increase font size by 100% */
+        font-family: Times New Roman, serif;
+        margin-bottom: 15px; /* Add more spacing between title and text */
     }
 
-/* Style for the section text */
+    /* Style for the section text */
     .section p {
-    font-size: 10px;
-    color: #008000;
-    text-align: center;
-    font-weight	: bold;
+        font-size: 10px;
+        color: #008000;
+        text-align: center;
+        font-weight: bold;
     }
 
     .mission-item p {
-    color: #666; /* Dark green color */
-    font-size: 10px; /* Increase font size by 100% */
-    margin: 30px;
+        color: #666; /* Dark green color */
+        font-size: 10px; /* Increase font size by 100% */
+        margin: 30px;
     }
 
     .text ul {
-            color: #666; /* Dark green color */
-    font-size: 8px; /* Increase font size by 100% */
-    margin: 30px;
+        color: #666; /* Dark green color */
+        font-size: 8px; /* Increase font size by 100% */
+        margin: 10px 0; /* Adjust margin */
+        padding: 0; /* Reset padding */
     }
 
     .image-column {
-    flex: 1; /* Each image column takes up equal space */
-    position: relative; /* Needed for hover effect */
-    display: flex; /* Use flexbox to align image vertically */
-    align-items: center; /* Center image vertically */
-    margin: 0px 5px;
+        flex: 1; /* Each image column takes up equal space */
+        position: relative; /* Needed for hover effect */
+        display: flex; /* Use flexbox to align image vertically */
+        align-items: center; /* Center image vertically */
+        margin: 0px 5px;
     }
 
     .image-column img {
-    max-width: 40px; /* Ensure images fill their container */
-    height: auto;
-    border-radius: 10px; /* Add border-radius for rounded corners */
-    transition: transform 0.3s ease; /* Add smooth transition for hover effect */
+        max-width: 40px; /* Ensure images fill their container */
+        height: auto;
+        border-radius: 10px; /* Add border-radius for rounded corners */
+        transition: transform 0.3s ease; /* Add smooth transition for hover effect */
     }
 
     .mission-item .image {
-    max-width: 150px; /* Ensure images take full width of container */
-    height: auto;
-    border-radius: 50px;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Add box shadow */
-    margin: 10px; /* Add spacing between images and text */
-    transition: transform 0.3s ease; /* Add transition effect for smooth scaling */
-}
+        max-width: 150px; /* Ensure images take full width of container */
+        height: auto;
+        border-radius: 50px;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Add box shadow */
+        margin: 10px; /* Add spacing between images and text */
+        transition: transform 0.3s ease; /* Add transition effect for smooth scaling */
+    }
 
-/* Scale images up when hovered */
-.mission-item .image:hover {
-    transform: scale(1.3); /* Increase scale by 10% */
-}
+    /* Scale images up when hovered */
+    .mission-item .image:hover {
+        transform: scale(1.3); /* Increase scale by 10% */
+    }
 
+    /* Align alternate paragraphs to the right */
+    .mission-item:nth-child(even) .image {
+        order: 2; /* Reorder image to the right */
+    }
 
-/* Align alternate paragraphs to the right */
-.mission-item:nth-child(even) .image {
-    order: 2; /* Reorder image to the right */
-}
+    .mission-item:nth-child(even) .text {
+        order: 1; /* Reorder text to the left */
+    }
 
-.mission-item:nth-child(even) .text {
-    order: 1; /* Reorder text to the left */
-}
     .tumelo {
-    margin-left: 100px;
+        margin-left: auto; /* Move the image to the right */
+    }
+
+    .colombe {
+        margin-right: auto; /* Move the image to the left */
+    }
 }
 
-.colombe {
-    margin-right: 100px;
-}
-}
 
 
 
