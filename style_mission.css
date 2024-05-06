@@ -219,7 +219,7 @@ h1 {
 
 @media only screen and (max-width: 720px) {
     .container {
-        width: 100%;
+        width: 70%;
         padding: 0;
     }
     
@@ -300,13 +300,13 @@ h1 {
     }
 
     .image-column img {
-        max-width: 40px; /* Ensure images fill their container */
+        max-width: 50px; /* Ensure images fill their container */
         border-radius: 10px; /* Add border-radius for rounded corners */
         transition: transform 0.3s ease; /* Add smooth transition for hover effect */
     }
 
-    .image-column img {
-        max-width: 40px; /* Ensure images fill their container */
+    .imagecolumn img {
+        max-width: 50px; /* Ensure images fill their container */
         border-radius: 10px; /* Add border-radius for rounded corners */
         transition: transform 0.3s ease; /* Add smooth transition for hover effect */
     }
@@ -351,7 +351,7 @@ h1 {
 
     .social-container {
     color: green;
-    padding-top: 60px;
+    padding-top: 40px;
     }
 }
 
