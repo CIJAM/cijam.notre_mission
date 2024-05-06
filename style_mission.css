@@ -24,7 +24,7 @@ body {
     color: #FFFFFF;
     padding: 0.5% 0;
     background-image: linear-gradient(to bottom, rgba(255,255,255,0), rgba(255,255,255,1)), url(homespace_home.png);
-    background-size: cover;
+    background-size: contain;
     position: relative;
     transition: background-image 1s ease;
 }
@@ -36,29 +36,29 @@ body {
 }
 
 .image {
-    height: 100px; /* Adjusted height */
+    height: 150px;
     margin: 5px;
 }
 
 .logotext,
 .brand {
-    font-family: Times New Roman, serif;
+    font-family: "Termina";
 }
 
 .logotext {
-    font-size: 30px; /* Adjusted font size */
+    font-size: 40px;
     color: #008000;
-    margin: 20px; /* Adjusted margin */
+    margin: 40px;
     margin-left: 5px;
     border-right: #FFA500 solid 3px;
-    padding-right: 50px; /* Adjusted padding */
+    padding-right: 100px;
 }
 
 .brand {
-    font-size: 20px; /* Adjusted font size */
-    color: #008000;
-    margin-right: 70px; /* Adjusted margin */
-    padding-left: 50px; /* Adjusted padding */
+    font-size: 25px;
+    color: #0B6623;
+    margin-right: 90px;
+    padding-left: 100px;
 }
 
 /* Navigation menu styles */
@@ -68,11 +68,11 @@ body {
 }
 
 .menu li {
-    margin-left: 10px; /* Adjusted margin */
+    margin-left: 30px;
 }
 
 .menu ul {
-    margin-left: 10px; /* Adjusted margin */
+    margin-left: 50px;
 }
 
 .menu a {
@@ -94,6 +94,7 @@ h1 {
     font-family: Termina;
     font-size: 2.2em;
 }
+
 
 
 
