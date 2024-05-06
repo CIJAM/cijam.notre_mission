@@ -11,7 +11,7 @@ body {
 }
 
 .container {
-    width: 70%;
+    width: 80%;
     margin: auto;
     padding: 3% 0;
     display: flex;
@@ -171,9 +171,10 @@ h1 {
 
 /* CSS for the section */
     .text-column {
-        width: 100%; /* Set width of text column */
+        width: 75%; /* Set width of text column */
         margin: 0 0; /* Center the text column */
         padding: 0 10px; /* Add padding to text column */
+        align-items: center;
         display: flex;
         flex-direction: row;
     }
@@ -188,7 +189,7 @@ h1 {
 
     .image-column {
         flex: 1;
-        width: 33%; /* Set width of text column */
+        width: 20%; /* Set width of text column */
         position: relative; /* Needed for hover effect */
         display: flex; /* Use flexbox to align image vertically */
         align-items: center; /* Center image vertically */
@@ -196,7 +197,7 @@ h1 {
     }
 
     .bro {
-        width: 33%
+        width: 20%
     }
 
     .image-column img {
@@ -212,11 +213,11 @@ h1 {
 }
 
 .tumelo {
-    margin-left: 100px; /* Move the image to the right */
+    margin-left: auto; /* Move the image to the right */
 }
 
 .colombe {
-    margin-right: 100px; /* Move the image to the left */
+    margin-right: auto; /* Move the image to the left */
 }
 
 
