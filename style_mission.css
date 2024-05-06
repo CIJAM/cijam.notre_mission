@@ -11,7 +11,7 @@ body {
 }
 
 .container {
-    width: 90%; /* Adjusted width */
+    width: 80%; /* Adjusted width */
     margin: auto;
     padding: 3% 0;
     display: flex;
