@@ -113,7 +113,7 @@ h1 {
     font-size: 1.5em;
     color: #008000;
     text-align: center;
-    font-weight	: bold;
+    font-weight: bold;
 }
 
 /* Style for mission item paragraphs */
@@ -168,35 +168,39 @@ h1 {
 
 
 /* CSS for the section */
-.section {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between; /* Space items evenly along the row */
-    align-items: flex-start; /* Align items to the top */
-}
+    .text-column {
+        width: 200px; /* Set width of text column */
+        margin: 0 auto; /* Center the text column */
+        padding: 0 10px; /* Add padding to text column */
+    }
 
-/* Style for image columns */
-.image-column {
-    flex: 1; /* Each image column takes up equal space */
-    position: relative; /* Needed for hover effect */
-    display: flex; /* Use flexbox to align image vertically */
-    align-items: center; /* Center image vertically */
-    margin: 0px 20px;
-}
+    .mission-item p {
+        color: #666; /* Dark green color */
+        font-size: 1.2em; /* Increase font size by 100% */
+        margin: 30px;
+    }
 
-.image-column img {
-    max-width: 300px; /* Ensure images fill their container */
-    height: auto;
-    border-radius: 10px; /* Add border-radius for rounded corners */
-    transition: transform 0.3s ease; /* Add smooth transition for hover effect */
-}
+    .text ul {
+        color: #666; /* Dark green color */
+        font-size: 25px; /* Increase font size by 100% */
+        margin: 30px 20px; /* Adjust margin */
+        padding: 0; /* Reset padding */
+    }
 
-/* Style for text column */
-.text-column {
-    flex: 1; /* Text column takes up equal space */
-    flex-direction: row;
-    padding: 0 20px; /* Add padding to text column */
-}
+    .image-column {
+        flex: 1; /* Each image column takes up equal space */
+        position: relative; /* Needed for hover effect */
+        display: flex; /* Use flexbox to align image vertically */
+        align-items: center; /* Center image vertically */
+        margin: 0px 20px;
+    }
+
+    .image-column img {
+        max-width: 100px; /* Ensure images fill their container */
+        height: auto;
+        border-radius: 10px; /* Add border-radius for rounded corners */
+        transition: transform 0.3s ease; /* Add smooth transition for hover effect */
+    }
 
 /* Style for the text */
 .text {
