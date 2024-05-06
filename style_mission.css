@@ -167,62 +167,60 @@ h1 {
 
 
 
-
 /* CSS for the section */
-    .text-column {
-        width: 80%; /* Set width of text column */
-        margin: auto; /* Center the text column */
-        padding: 0 0; /* Add padding to text column */
-        display: flex;
-        flex-direction: row;
-    }
+.text-column {
+    width: 80%; /* Set width of text column */
+    margin: auto; /* Center the text column */
+    padding: 0 0; /* Add padding to text column */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; /* Space items evenly along the row */
+}
 
-    .text p {
-        color: #666; /* Dark green color */
-        font-size: 25px; /* Increase font size by 100% */
-        margin: 30px 20px; /* Adjust margin */
-        padding: 0; /* Reset padding */
-        font-weight: bold;
-    }
+.text p {
+    color: #666; /* Dark green color */
+    font-size: 25px; /* Increase font size by 100% */
+    margin: 30px 20px; /* Adjust margin */
+    padding: 0; /* Reset padding */
+    font-weight: bold;
+}
 
-    .image-column {
-        flex: 1;
-        width: 26%; /* Set width of text column */
-        position: relative; /* Needed for hover effect */
-        display: flex; /* Use flexbox to align image vertically */
-        align-items: center; /* Center image vertically */
-    }
+.image-column {
+    width: 26%; /* Set width of image column */
+    position: relative; /* Needed for hover effect */
+    display: flex; /* Use flexbox to align image vertically */
+    align-items: center; /* Center image vertically */
+}
 
-    .imagecolumn {
-        flex: 1;
-        width: 26%; /* Set width of text column */
-        position: relative; /* Needed for hover effect */
-        display: flex; /* Use flexbox to align image vertically */
-        align-items: center; /* Center image vertically */
-    }
+.imagecolumn {
+    width: 26%; /* Set width of image column */
+    position: relative; /* Needed for hover effect */
+    display: flex; /* Use flexbox to align image vertically */
+    align-items: center; /* Center image vertically */
+}
 
-    .bro {
-        width: 26%
-    }
+.bro {
+    width: 26%
+}
 
-    .image-column img {
-        max-width: 150px; /* Ensure images fill their container */
-        height: auto;
-        border-radius: 10px; /* Add border-radius for rounded corners */
-        transition: transform 0.3s ease; /* Add smooth transition for hover effect */
-    }
+.image-column img {
+    max-width: 100%; /* Ensure images fill their container */
+    height: auto;
+    border-radius: 10px; /* Add border-radius for rounded corners */
+    transition: transform 0.3s ease; /* Add smooth transition for hover effect */
+}
 
 /* Hover effect for images */
 .image-column img:hover {
     transform: scale(1.2); /* Increase scale on hover */
 }
 
-    .imagecolumn img {
-        max-width: 150px; /* Ensure images fill their container */
-        height: auto;
-        border-radius: 10px; /* Add border-radius for rounded corners */
-        transition: transform 0.3s ease; /* Add smooth transition for hover effect */
-    }
+.imagecolumn img {
+    max-width: 100%; /* Ensure images fill their container */
+    height: auto;
+    border-radius: 10px; /* Add border-radius for rounded corners */
+    transition: transform 0.3s ease; /* Add smooth transition for hover effect */
+}
 
 /* Hover effect for images */
 .imagecolumn img:hover {
