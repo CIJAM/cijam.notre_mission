@@ -174,7 +174,6 @@ h1 {
         width: 80%; /* Set width of text column */
         margin: auto; /* Center the text column */
         padding: 0 0; /* Add padding to text column */
-        align-items: center;
         display: flex;
         flex-direction: row;
     }
@@ -192,8 +191,7 @@ h1 {
         width: 26%; /* Set width of text column */
         position: relative; /* Needed for hover effect */
         display: flex; /* Use flexbox to align image vertically */
-        align-items: right; /* Center image vertically */
-        margin-right: 20px;
+        align-items: center; /* Center image vertically */
     }
 
     .imagecolumn {
@@ -201,8 +199,7 @@ h1 {
         width: 26%; /* Set width of text column */
         position: relative; /* Needed for hover effect */
         display: flex; /* Use flexbox to align image vertically */
-        align-items: left; /* Center image vertically */
-        margin-left: 20px;
+        align-items: center; /* Center image vertically */
     }
 
     .bro {
@@ -210,7 +207,7 @@ h1 {
     }
 
     .image-column img {
-        max-width: 300px; /* Ensure images fill their container */
+        max-width: 150px; /* Ensure images fill their container */
         height: auto;
         border-radius: 10px; /* Add border-radius for rounded corners */
         transition: transform 0.3s ease; /* Add smooth transition for hover effect */
@@ -222,7 +219,7 @@ h1 {
 }
 
     .imagecolumn img {
-        max-width: 300px; /* Ensure images fill their container */
+        max-width: 150px; /* Ensure images fill their container */
         height: auto;
         border-radius: 10px; /* Add border-radius for rounded corners */
         transition: transform 0.3s ease; /* Add smooth transition for hover effect */
@@ -231,14 +228,6 @@ h1 {
 /* Hover effect for images */
 .imagecolumn img:hover {
     transform: scale(1.2); /* Increase scale on hover */
-}
-
-.tumelo {
-    margin-left: auto; /* Move the image to the right */
-}
-
-.colombe {
-    margin-right: auto; /* Move the image to the left */
 }
 
 
@@ -318,12 +307,12 @@ h1 {
 
     .tumelo,
     .colombe {
-        max-width: 100px;
+        max-width: 50px;
         height: auto;
     }
 
     .text-column {
-        width: 200px; /* Set width of text column */
+        width: 400px; /* Set width of text column */
         margin: 0 auto; /* Center the text column */
         padding: 0 10px; /* Add padding to text column */
         text-align: center;
@@ -356,6 +345,7 @@ h1 {
     }
 
     .image-column {
+        width: 80px;
         flex: 1; /* Each image column takes up equal space */
         position: relative; /* Needed for hover effect */
         display: flex; /* Use flexbox to align image vertically */
@@ -371,6 +361,7 @@ h1 {
     }
 
     .imagecolumn {
+        width: 80px;
         flex: 1; /* Each image column takes up equal space */
         position: relative; /* Needed for hover effect */
         display: flex; /* Use flexbox to align image vertically */
@@ -383,14 +374,6 @@ h1 {
         height: auto;
         border-radius: 10px; /* Add border-radius for rounded corners */
         transition: transform 0.3s ease; /* Add smooth transition for hover effect */
-    }
-
-    .tumelo {
-        margin-left: 20px; /* Move the image to the right */
-    }
-
-    .colombe {
-        margin-right: 20px; /* Move the image to the left */
     }
 
     .man {
