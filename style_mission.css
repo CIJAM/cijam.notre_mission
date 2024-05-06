@@ -202,25 +202,26 @@ h1 {
     color: #008000; /* Dark green color */
 }
 
-    .text ul {
+.text ul {
     color: #666; /* Dark green color */
     font-size: 1.2em; /* Increase font size by 100% */
-    margin: 30px;
-    }
+    margin: 30px 20px; /* Adjust margin */
+    padding: 0; /* Reset padding */
+}
 
 /* Hover effect for images */
 .image-column img:hover {
-    transform: scale(1.1); /* Increase scale on hover */
+    transform: scale(1.2); /* Increase scale on hover */
 }
 
-
 .tumelo {
-    margin-left: 100px;
+    margin-left: auto; /* Move the image to the right */
 }
 
 .colombe {
-    margin-right: 100px;
+    margin-right: auto; /* Move the image to the left */
 }
+
 
 
 
@@ -248,7 +249,7 @@ h1 {
 
     .image {
         height: 50px; /* Smaller height */
-        margin: 0;
+        margin: 0px;
         margin-top: 10px;
     }
 
