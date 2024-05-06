@@ -170,7 +170,7 @@ h1 {
 /* CSS for the section */
 .section {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between; /* Space items evenly along the row */
     align-items: flex-start; /* Align items to the top */
 }
@@ -194,6 +194,7 @@ h1 {
 /* Style for text column */
 .text-column {
     flex: 1; /* Text column takes up equal space */
+    flex-direction: row;
     padding: 0 20px; /* Add padding to text column */
 }
 
