@@ -304,6 +304,7 @@ h1 {
         margin: 0 auto; /* Center the text column */
         padding: 0 10px; /* Add padding to text column */
         text-align: center;
+        flex-direction: row;
     }
 
     .section-title {
@@ -334,7 +335,6 @@ h1 {
         flex: 1; /* Each image column takes up equal space */
         position: relative; /* Needed for hover effect */
         display: flex; /* Use flexbox to align image vertically */
-        flex-direction: row;
         align-items: center; /* Center image vertically */
         margin: 0px 5px;
     }
@@ -354,6 +354,12 @@ h1 {
         margin-right: 20px; /* Move the image to the left */
     }
 
+    .man {
+        max-width: 80%;
+        margin: 30px;
+        align-items: center;
+    }
+    
     .mission-item p {
         color: #666; /* Dark green color */
         font-size: 10px; /* Increase font size by 100% */
