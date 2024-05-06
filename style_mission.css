@@ -169,7 +169,7 @@ h1 {
 
 /* CSS for the section */
     .text-column {
-        width: 200px; /* Set width of text column */
+        width: 700px; /* Set width of text column */
         margin: 0 auto; /* Center the text column */
         padding: 0 10px; /* Add padding to text column */
     }
@@ -237,6 +237,7 @@ h1 {
 @media only screen and (max-width: 720px) {
     .container {
         padding: 0;
+        width: 100%;
     }
     
     #navbar {
@@ -385,11 +386,11 @@ h1 {
     }
 
     .tumelo {
-        margin-left: auto; /* Move the image to the right */
+        margin-left: 20px; /* Move the image to the right */
     }
 
     .colombe {
-        margin-right: auto; /* Move the image to the left */
+        margin-right: 20px; /* Move the image to the left */
     }
 }
 
