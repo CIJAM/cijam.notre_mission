@@ -169,25 +169,15 @@ h1 {
 
 
 /* CSS for the section */
-.bro,
-.text-column {
+.bro {
     margin: auto; /* Center the text column */
-    padding: 0 0; /* Add padding to text column */
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between; /* Space items evenly along the row */
-}
-
-.image-column, .imagecolumn {
-    width: 50%; /* Set width of image columns */
-    position: relative; /* Needed for hover effect */
-    display: flex; /* Use flexbox to align image vertically */
-    align-items: center; /* Center image vertically */
+    padding: 0; /* Add padding to text column */
+    text-align: center; /* Center the paragraph */
 }
 
 .bro p {
     font-size: 25px; /* Increase font size by 100% */
-    margin: 30px 20px; /* Adjust margin */
+    margin: 30px auto; /* Adjust margin */
     padding: 0; /* Reset padding */
     font-weight: bold; 
     color: #666;
@@ -195,7 +185,8 @@ h1 {
 
 .image-column img, .imagecolumn img {
     width: 100%; /* Ensure images fill their container */
-    height: auto;
+    height: 200px; /* Set a fixed height for consistent size */
+    object-fit: cover; /* Ensure images cover the container */
     border-radius: 10px; /* Add border-radius for rounded corners */
     transition: transform 0.3s ease; /* Add smooth transition for hover effect */
 }
