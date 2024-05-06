@@ -216,11 +216,11 @@ h1 {
 }
 
 .tumelo {
-    margin-left: auto; /* Move the image to the right */
+    margin-left: 100px; /* Move the image to the right */
 }
 
 .colombe {
-    margin-right: auto; /* Move the image to the left */
+    margin-right: 100px; /* Move the image to the left */
 }
 
 
