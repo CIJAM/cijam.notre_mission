@@ -42,7 +42,7 @@ body {
 
 .logotext,
 .brand {
-    font-family: "Termina";
+    font-family: Times New Roman, serif;
 }
 
 .logotext {
@@ -103,7 +103,7 @@ h1 {
 .section-title {
     color: orange; /* Orange color */
     font-size: 3em; /* Increase font size by 100% */
-    font-family: Termina;
+    font-family: Times New Roman, serif;
     margin-bottom: 20px; /* Add more spacing between title and text */
 }
 
@@ -305,7 +305,7 @@ h1 {
     .section-title {
     color: orange; /* Orange color */
     font-size: 15px; /* Increase font size by 100% */
-    font-family: Termina;
+    font-family: Times New Roman, serif;
     margin-bottom: 15px; /* Add more spacing between title and text */
     }
 
@@ -320,6 +320,12 @@ h1 {
     .mission-item p {
     color: #666; /* Dark green color */
     font-size: 10px; /* Increase font size by 100% */
+    margin: 30px;
+    }
+
+    .text ul {
+            color: #666; /* Dark green color */
+    font-size: 8px; /* Increase font size by 100% */
     margin: 30px;
     }
 
@@ -339,11 +345,11 @@ h1 {
     }
 
     .mission-item .image {
-    max-width: 100px; /* Ensure images take full width of container */
+    max-width: 150px; /* Ensure images take full width of container */
     height: auto;
     border-radius: 50px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Add box shadow */
-    margin: 20px; /* Add spacing between images and text */
+    margin: 10px; /* Add spacing between images and text */
     transition: transform 0.3s ease; /* Add transition effect for smooth scaling */
 }
 
