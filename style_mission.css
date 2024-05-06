@@ -177,22 +177,15 @@ h1 {
     justify-content: space-between; /* Space items evenly along the row */
 }
 
-.image-column {
-    width: 26%; /* Set width of image column */
-    position: relative; /* Needed for hover effect */
-    display: flex; /* Use flexbox to align image vertically */
-    align-items: center; /* Center image vertically */
-}
-
-.imagecolumn {
-    width: 26%; /* Set width of image column */
+.image-column, .imagecolumn {
+    width: 35%; /* Set width of image columns */
     position: relative; /* Needed for hover effect */
     display: flex; /* Use flexbox to align image vertically */
     align-items: center; /* Center image vertically */
 }
 
 .bro {
-    width: 26%
+    width: 30%;
 } 
 
 .bro p {
@@ -203,29 +196,18 @@ h1 {
     color: #666;
 }
 
-.image-column img {
-    max-width: 100%; /* Ensure images fill their container */
-    height: auto;
-    border-radius: 10px; /* Add border-radius for rounded corners */
-    transition: transform 0.3s ease; /* Add smooth transition for hover effect */
-}
-
-.imagecolumn img {
-    max-width: 100%; /* Ensure images fill their container */
+.image-column img, .imagecolumn img {
+    width: 100%; /* Ensure images fill their container */
     height: auto;
     border-radius: 10px; /* Add border-radius for rounded corners */
     transition: transform 0.3s ease; /* Add smooth transition for hover effect */
 }
 
 /* Hover effect for images */
-.image-column img:hover {
+.image-column img:hover, .imagecolumn img:hover {
     transform: scale(1.2); /* Increase scale on hover */
 }
 
-/* Hover effect for images */
-.imagecolumn img:hover {
-    transform: scale(1.2); /* Increase scale on hover */
-}
 
 
 
