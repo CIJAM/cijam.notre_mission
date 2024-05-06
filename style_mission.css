@@ -171,15 +171,15 @@ h1 {
 
 /* CSS for the section */
     .text-column {
-        width: 75%; /* Set width of text column */
-        margin: 0 0; /* Center the text column */
-        padding: 0 10px; /* Add padding to text column */
+        width: 80%; /* Set width of text column */
+        margin: auto; /* Center the text column */
+        padding: 0 0; /* Add padding to text column */
         align-items: center;
         display: flex;
         flex-direction: row;
     }
 
-    .text li {
+    .text p {
         color: #666; /* Dark green color */
         font-size: 25px; /* Increase font size by 100% */
         margin: 30px 20px; /* Adjust margin */
@@ -189,15 +189,24 @@ h1 {
 
     .image-column {
         flex: 1;
-        width: 20%; /* Set width of text column */
+        width: 26%; /* Set width of text column */
         position: relative; /* Needed for hover effect */
         display: flex; /* Use flexbox to align image vertically */
-        align-items: center; /* Center image vertically */
-        margin: 0px 20px;
+        align-items: right; /* Center image vertically */
+        margin-right: 20px;
+    }
+
+    .imagecolumn {
+        flex: 1;
+        width: 26%; /* Set width of text column */
+        position: relative; /* Needed for hover effect */
+        display: flex; /* Use flexbox to align image vertically */
+        align-items: left; /* Center image vertically */
+        margin-left: 20px;
     }
 
     .bro {
-        width: 20%
+        width: 26%
     }
 
     .image-column img {
@@ -209,6 +218,18 @@ h1 {
 
 /* Hover effect for images */
 .image-column img:hover {
+    transform: scale(1.2); /* Increase scale on hover */
+}
+
+    .imagecolumn img {
+        max-width: 300px; /* Ensure images fill their container */
+        height: auto;
+        border-radius: 10px; /* Add border-radius for rounded corners */
+        transition: transform 0.3s ease; /* Add smooth transition for hover effect */
+    }
+
+/* Hover effect for images */
+.imagecolumn img:hover {
     transform: scale(1.2); /* Increase scale on hover */
 }
 
@@ -327,7 +348,7 @@ h1 {
         margin: 5px;
     }
 
-    .text li {
+    .text p {
         color: #666; /* Dark green color */
         font-size: 8px; /* Increase font size by 100% */
         margin: 10px 0; /* Adjust margin */
@@ -338,8 +359,23 @@ h1 {
         flex: 1; /* Each image column takes up equal space */
         position: relative; /* Needed for hover effect */
         display: flex; /* Use flexbox to align image vertically */
-        align-items: center; /* Center image vertically */
-        margin: 0px 5px;
+        align-items: right; /* Center image vertically */
+        margin-right: 5px;
+    }
+
+    .image-column img {
+        max-width: 40px; /* Ensure images fill their container */
+        height: auto;
+        border-radius: 10px; /* Add border-radius for rounded corners */
+        transition: transform 0.3s ease; /* Add smooth transition for hover effect */
+    }
+
+    .imagecolumn {
+        flex: 1; /* Each image column takes up equal space */
+        position: relative; /* Needed for hover effect */
+        display: flex; /* Use flexbox to align image vertically */
+        align-items: left; /* Center image vertically */
+        margin-left: 5px;
     }
 
     .image-column img {
