@@ -180,11 +180,12 @@ h1 {
         margin: 30px;
     }
 
-    .text ul {
+    .text li {
         color: #666; /* Dark green color */
         font-size: 25px; /* Increase font size by 100% */
         margin: 30px 20px; /* Adjust margin */
         padding: 0; /* Reset padding */
+        font-weight: bold;
     }
 
     .image-column {
