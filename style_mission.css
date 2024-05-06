@@ -110,8 +110,7 @@ h1 {
 }
 
 /* Style for the section text */
-.section p,
-.text p {
+.man p {
     font-size: 1.5em;
     color: #008000;
     text-align: center;
