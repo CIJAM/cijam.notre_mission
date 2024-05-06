@@ -11,7 +11,7 @@ body {
 }
 
 .container {
-    width: 70%;
+    width: 80%;
     margin: auto;
     padding: 3% 0;
     display: flex;
@@ -38,7 +38,7 @@ body {
 
 .image {
     height: 150px;
-    margin: 5px;
+    margin: 0 100px;
 }
 
 .logotext,
@@ -58,7 +58,7 @@ body {
 .brand {
     font-size: 25px;
     color: #0B6623;
-    margin-right: 90px;
+    margin-right: 150px;
     padding-left: 100px;
 }
 
@@ -175,6 +175,13 @@ h1 {
     text-align: center; /* Center the paragraph */
 }
 
+.text-column {
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: center; /* Center the content horizontally */
+}
+
 .bro p {
     font-size: 25px; /* Increase font size by 100% */
     margin: 30px auto; /* Adjust margin */
@@ -183,16 +190,18 @@ h1 {
     color: #666;
 }
 
-.image-column img, .imagecolumn img {
-    width: 100%; /* Ensure images fill their container */
-    height: 200px; /* Set a fixed height for consistent size */
-    object-fit: cover; /* Ensure images cover the container */
+.image-column img,
+.imagecolumn img {
+    max-height: 300px; /* Set a maximum height for the images */
+    width: auto; /* Allow width to adjust automatically */
     border-radius: 10px; /* Add border-radius for rounded corners */
     transition: transform 0.3s ease; /* Add smooth transition for hover effect */
+    margin: 0 10px; /* Adjust margin */
 }
 
 /* Hover effect for images */
-.image-column img:hover, .imagecolumn img:hover {
+.image-column img:hover,
+.imagecolumn img:hover {
     transform: scale(1.2); /* Increase scale on hover */
 }
 
@@ -210,7 +219,7 @@ h1 {
 
 @media only screen and (max-width: 720px) {
     .container {
-        width: 90%;
+        width: 100%;
         padding: 0;
     }
     
@@ -282,15 +291,6 @@ h1 {
         height: auto;
     }
 
-    .text-column {
-        width: 400px; /* Set width of text column */
-        margin: 0 auto; /* Center the text column */
-        padding: 0 10px; /* Add padding to text column */
-        text-align: center;
-        display: flex;
-        flex-direction: row;
-    }
-
     .section-title {
         color: orange; /* Orange color */
         font-size: 15px; /* Increase font size by 100% */
@@ -305,29 +305,11 @@ h1 {
         padding: 0; /* Reset padding */
     }
 
-    .image-column {
-        width: 80px;
-        flex: 1; /* Each image column takes up equal space */
-        position: relative; /* Needed for hover effect */
-        display: flex; /* Use flexbox to align image vertically */
-        align-items: right; /* Center image vertically */
-        margin-right: 5px;
-    }
-
     .image-column img {
         max-width: 40px; /* Ensure images fill their container */
         height: auto;
         border-radius: 10px; /* Add border-radius for rounded corners */
         transition: transform 0.3s ease; /* Add smooth transition for hover effect */
-    }
-
-    .imagecolumn {
-        width: 80px;
-        flex: 1; /* Each image column takes up equal space */
-        position: relative; /* Needed for hover effect */
-        display: flex; /* Use flexbox to align image vertically */
-        align-items: left; /* Center image vertically */
-        margin-left: 5px;
     }
 
     .image-column img {
@@ -380,6 +362,11 @@ h1 {
     .mission-item:nth-child(even) .text {
         order: 1; /* Reorder text to the left */
     }
+
+    .social-container {
+    color: green;
+    padding-top: 60px;
+    }
 }
 
 
@@ -405,6 +392,7 @@ h1 {
 /* Contact section styles */
 .social-container {
     color: green;
+    padding-top: 100px;
 }
 
 .social-container h2 {
