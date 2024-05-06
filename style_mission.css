@@ -11,7 +11,7 @@ body {
 }
 
 .container {
-    width: 75%;
+    width: 70%;
     margin: auto;
     padding: 3% 0;
     display: flex;
@@ -327,16 +327,6 @@ h1 {
         margin-bottom: 15px; /* Add more spacing between title and text */
     }
 
-    /* Style for the section text */
-    .section p {
-        font-size: 10px;
-        color: #008000;
-        text-align: center;
-        align-items: center;
-        font-weight: bold;
-        margin: 5px;
-    }
-
     .text p {
         color: #666; /* Dark green color */
         font-size: 8px; /* Increase font size by 100% */
@@ -380,6 +370,15 @@ h1 {
         max-width: 80%;
         margin: 30px;
         align-items: center;
+    }
+
+    .man p {
+        font-size: 10px;
+        color: #008000;
+        text-align: center;
+        align-items: center;
+        font-weight: bold;
+        margin: 5px;
     }
     
     .mission-item p {
