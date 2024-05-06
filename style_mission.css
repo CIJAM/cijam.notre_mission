@@ -296,6 +296,10 @@ h1 {
         height: auto;
     }
 
+    .image {
+        align-items: center;
+    }
+
     .text-column {
         width: 200px; /* Set width of text column */
         margin: 0 auto; /* Center the text column */
