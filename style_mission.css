@@ -102,14 +102,15 @@ h1 {
 /* Style for the section title */
 .section-title {
     color: orange; /* Orange color */
-    font-size: 3em; /* Increase font size by 100% */
+    font-size: 40px; /* Increase font size by 100% */
     font-family: Times New Roman, serif;
     margin-bottom: 20px; /* Add more spacing between title and text */
 }
 
 /* Style for the section text */
-.section p {
-    font-size: 1.8em;
+.section p,
+.text p {
+    font-size: 1.5em;
     color: #008000;
     text-align: center;
     font-weight	: bold;
@@ -201,12 +202,11 @@ h1 {
     color: #008000; /* Dark green color */
 }
 
-/* Style for section title */
-.section-title {
-    color: #FFA500; /* Orange color */
-    margin-bottom: 10px; /* Add spacing between title and text */
-    font-size: 24px; /* Increase font size */
-}
+    .text ul {
+    color: #666; /* Dark green color */
+    font-size: 1.2em; /* Increase font size by 100% */
+    margin: 30px;
+    }
 
 /* Hover effect for images */
 .image-column img:hover {
