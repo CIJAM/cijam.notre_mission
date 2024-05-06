@@ -207,6 +207,7 @@ h1 {
 
 
 
+
 @media only screen and (max-width: 720px) {
     .container {
         width: 90%;
@@ -520,8 +521,8 @@ h1 {
     position: relative;
     display: block;
     margin: 0;
-    width: 2.2rem;
-    height: 2.2rem;
+    width: 2.5rem;
+    height: 2.5rem;
     background: #008000;
     border-radius: 1.625rem;
 }
@@ -562,7 +563,7 @@ h1 {
     left: 0;
     right: 0;
     bottom: 0;
-    padding: 0.75rem 0;
+    padding: 0.5rem 0;
     margin: 0 0 0 1.4rem;
     color: rgba(255, 255, 255, 0.493);
     font-weight: 700;
