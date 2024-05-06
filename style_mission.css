@@ -169,6 +169,7 @@ h1 {
 
 
 /* CSS for the section */
+.bro,
 .text-column {
     margin: auto; /* Center the text column */
     padding: 0 0; /* Add padding to text column */
