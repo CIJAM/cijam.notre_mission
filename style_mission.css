@@ -147,7 +147,7 @@ h1 {
 
 /* Scale images up when hovered */
 .mission-item .image:hover {
-    transform: scale(1.1); /* Increase scale by 10% */
+    transform: scale(1.2); /* Increase scale by 10% */
 }
 
 
@@ -171,15 +171,10 @@ h1 {
 
 /* CSS for the section */
     .text-column {
-        width: 700px; /* Set width of text column */
-        margin: 0 auto; /* Center the text column */
+        width: 100%; /* Set width of text column */
+        margin: 0 0; /* Center the text column */
         padding: 0 10px; /* Add padding to text column */
-    }
-
-    .mission-item p {
-        color: #666; /* Dark green color */
-        font-size: 1.2em; /* Increase font size by 100% */
-        margin: 30px;
+        flex-direction: row;
     }
 
     .text li {
@@ -199,24 +194,11 @@ h1 {
     }
 
     .image-column img {
-        max-width: 100px; /* Ensure images fill their container */
+        max-width: 300px; /* Ensure images fill their container */
         height: auto;
         border-radius: 10px; /* Add border-radius for rounded corners */
         transition: transform 0.3s ease; /* Add smooth transition for hover effect */
     }
-
-/* Style for the text */
-.text {
-    color: #008000; /* Dark green color */
-}
-
-.text ul {
-    color: #666; /* Dark green color */
-    font-size: 1.2em; /* Increase font size by 100% */
-    margin: 30px 20px; /* Adjust margin */
-    padding: 0; /* Reset padding */
-    font-weight: bold;
-}
 
 /* Hover effect for images */
 .image-column img:hover {
