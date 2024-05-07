@@ -295,6 +295,7 @@ h1 {
 
     .bro {
 	text-items: center;
+	marin: 0 30px;
     }
 
     .bro p {
@@ -316,6 +317,9 @@ h1 {
         transition: transform 0.3s ease; /* Add smooth transition for hover effect */
     }
 
+    .man {
+	margin: 0 10px;
+    }
     .man p {
         font-size: 10px;
         color: #008000;
