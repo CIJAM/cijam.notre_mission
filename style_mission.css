@@ -217,10 +217,11 @@ h1 {
 
 
 
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 600px) {
     .container {
-        width: 70%;
+        width: 100%; /* Adjust container width to fit the screen */
         padding: 0;
+        overflow-x: hidden; /* Hide horizontal overflow to prevent content from getting cut off */
     }
     
     #navbar {
@@ -238,7 +239,7 @@ h1 {
 
     .image {
         height: 50px; /* Smaller height */
-        margin-left: 20px;
+        margin-left: 40px;
         margin-right: 10px;
     }
 
@@ -292,21 +293,25 @@ h1 {
         margin-bottom: 15px; /* Add more spacing between title and text */
     }
 
+    .bro {
+	text-items: center;
+    }
+
     .bro p {
         color: #666; /* Dark green color */
         font-size: 8px; /* Increase font size by 100% */
-        margin: 10px 0; /* Adjust margin */
+        margin: 10px; /* Adjust margin */
         padding: 0; /* Reset padding */
     }
 
     .image-column img {
-        max-width: 50px; /* Ensure images fill their container */
+        max-width: 100px; /* Ensure images fill their container */
         border-radius: 10px; /* Add border-radius for rounded corners */
         transition: transform 0.3s ease; /* Add smooth transition for hover effect */
     }
 
     .imagecolumn img {
-        max-width: 50px; /* Ensure images fill their container */
+        max-width: 100px; /* Ensure images fill their container */
         border-radius: 10px; /* Add border-radius for rounded corners */
         transition: transform 0.3s ease; /* Add smooth transition for hover effect */
     }
@@ -351,7 +356,8 @@ h1 {
 
     .social-container {
     color: green;
-    padding-top: 40px;
+    margin-top: 0px;
+    border-top: none
     }
 }
 
@@ -378,7 +384,8 @@ h1 {
 /* Contact section styles */
 .social-container {
     color: green;
-    padding-top: 100px;
+    margin-top: 100px;
+    max-width:100%;
 }
 
 .social-container h2 {
